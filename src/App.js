@@ -5,6 +5,7 @@ import ResponseDisplay from "./components/ResponseDisplay";
 import "./App.css";
 
 const App = () => {
+    // eslint-disable-next-line no-unused-vars
     const [jsonData, setJsonData] = useState(null);
     const [response, setResponse] = useState(null);
     const [selectedFilters, setSelectedFilters] = useState([]);
