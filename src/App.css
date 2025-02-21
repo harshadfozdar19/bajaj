@@ -1,0 +1,62 @@
+/* Center the main container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Text area styling */
+textarea {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+/* Multi-select dropdown container */
+.multi-filter-container {
+    margin-top: 15px;
+}
+
+/* Filtered response styling */
+.filtered-response {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Response title */
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Display response in a structured format */
+pre {
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
